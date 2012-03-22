@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CalloutView.h"
 
 @interface ViewController ()
 
@@ -31,4 +32,13 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+
+-(IBAction) btnClicked:(id)sender
+{
+    NSLog(@"[%@].%@ ", [self class],NSStringFromSelector(_cmd));
+
+    CalloutView * callout = [[CalloutView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+
+    [callout showFromAnchorPoint:[sender bounds] inView:sender animated:YES];
+}
 @end

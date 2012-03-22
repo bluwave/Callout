@@ -20,6 +20,7 @@
 		55230CDA151BB14B006A7028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55230CBB151BB14B006A7028 /* Foundation.framework */; };
 		55230CE2151BB14B006A7028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55230CE0151BB14B006A7028 /* InfoPlist.strings */; };
 		55230CE5151BB14B006A7028 /* CalloutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55230CE4151BB14B006A7028 /* CalloutTests.m */; };
+		55230CED151BB14B006A702C /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55230CED151BB14B006A702B /* CalloutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		55230CE1151BB14B006A7028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55230CE3151BB14B006A7028 /* CalloutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutTests.h; sourceTree = "<group>"; };
 		55230CE4151BB14B006A7028 /* CalloutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutTests.m; sourceTree = "<group>"; };
+		55230CED151BB14B006A702A /* CalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		55230CED151BB14B006A702B /* CalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				55230CCC151BB14B006A7028 /* ViewController.m */,
 				55230CCE151BB14B006A7028 /* ViewController.xib */,
 				55230CC0151BB14B006A7028 /* Supporting Files */,
+				55230CED151BB14B006A7029 /* Callout */,
 			);
 			path = Callout;
 			sourceTree = "<group>";
@@ -149,6 +153,15 @@
 				55230CE0151BB14B006A7028 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55230CED151BB14B006A7029 /* Callout */ = {
+			isa = PBXGroup;
+			children = (
+				55230CED151BB14B006A702B /* CalloutView.m */,
+				55230CED151BB14B006A702A /* CalloutView.h */,
+			);
+			path = Callout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 				55230CC6151BB14B006A7028 /* main.m in Sources */,
 				55230CCA151BB14B006A7028 /* AppDelegate.m in Sources */,
 				55230CCD151BB14B006A7028 /* ViewController.m in Sources */,
+				55230CED151BB14B006A702C /* CalloutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
