@@ -1,0 +1,13 @@
+.DS_Store
+*.pbxuser
+*.xcuserdata
+*.xcuserstate
+*.xcuserdatad
+.idea
+.idea/*
+Callout.xcodeproj/project.xcworkspace
+Callout.xcodeproj/xcuserdata/*
+build/
+Classes/Constants.he
+buildAutomation/testflight_builds/
+*.orig

@@ -37,20 +37,20 @@
 		55230CB9151BB14B006A7028 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55230CBB151BB14B006A7028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55230CBD151BB14B006A7028 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		55230CC1151BB14B006A7028 /* Callout-Info.plist */ = {isa = PBXFileReference; path = "Callout-Info.plist"; sourceTree = "<group>"; };
+		55230CC1151BB14B006A7028 /* Callout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Callout-Info.plist"; sourceTree = "<group>"; };
 		55230CC3151BB14B006A7028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55230CC5151BB14B006A7028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55230CC7151BB14B006A7028 /* Callout-Prefix.pch */ = {isa = PBXFileReference; path = "Callout-Prefix.pch"; sourceTree = "<group>"; };
-		55230CC8151BB14B006A7028 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		55230CC7151BB14B006A7028 /* Callout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Callout-Prefix.pch"; sourceTree = "<group>"; };
+		55230CC8151BB14B006A7028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55230CC9151BB14B006A7028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55230CCB151BB14B006A7028 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		55230CCB151BB14B006A7028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		55230CCC151BB14B006A7028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55230CCF151BB14B006A7028 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		55230CD6151BB14B006A7028 /* CalloutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalloutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55230CD7151BB14B006A7028 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		55230CDF151BB14B006A7028 /* CalloutTests-Info.plist */ = {isa = PBXFileReference; path = "CalloutTests-Info.plist"; sourceTree = "<group>"; };
+		55230CDF151BB14B006A7028 /* CalloutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalloutTests-Info.plist"; sourceTree = "<group>"; };
 		55230CE1151BB14B006A7028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55230CE3151BB14B006A7028 /* CalloutTests.h */ = {isa = PBXFileReference; path = CalloutTests.h; sourceTree = "<group>"; };
+		55230CE3151BB14B006A7028 /* CalloutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutTests.h; sourceTree = "<group>"; };
 		55230CE4151BB14B006A7028 /* CalloutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
